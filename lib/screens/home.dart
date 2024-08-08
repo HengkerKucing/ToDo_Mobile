@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/constant/colors.dart';
+import 'package:todo_app/widgets/todo_item.dart';
 
 class HomePage extends StatelessWidget {
     const HomePage({super.key});
@@ -23,8 +24,18 @@ class HomePage extends StatelessWidget {
                     Container(
                       margin: EdgeInsets.only(top: 50, bottom: 20),
                       child: Text('Semua Catatan', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),),
-                    )
-                    
+                    ),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+                    ToDoItem(),
+
                   ],
                 ),
               )
